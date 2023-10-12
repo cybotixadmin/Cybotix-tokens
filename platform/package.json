@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "jq": "^1.7.2",
+    "nodejs": "^0.0.0",
+    "pem-jwk": "^2.0.0"
+  },
+  "name": "platform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,48 @@
+
+cd "/cygdrive/c/users/lars_/Documents/my_corporate/AddScape/development/server API/V0.5/tokens/platform"
+
+npm init
+npm install nodejs
+npm install jq
+npm install pem-jwk
+npm install crypto
+
+export OPENSSL_CONF=/dev/null
+
+###  server
+
+openssl genrsa -des3 -out server.privatekey.pem 2048
+
+openssl rsa -in server.privatekey.pem -outform PEM -pubout -out server.publickey.pem 
+
+
+
+# selfsigned
+openssl req -new -key server.privatekey.pem -x509 -days 3650 -sha256 -out server.certificate.pem -subj "/C=NO/O=Cybotix AS/CN=cybotix.no"
+
+openssl x509 -in server.certificate.pem -text -noout
+
+
+# create a certificate request
+
+openssl req -help
+
+openssl req -new -key server.privatekey.pem -days 3650 -sha256 -out server.certificate.csr -subj "/C=US/O=My Organization/CN=mydomain.com"
+
+openssl req -in server.certificate.csr -text -noout
+
+
+###  client 
+
+openssl genrsa -des3 -out client.privatekey.pem 2048
+
+openssl rsa -in client.privatekey.pem -outform PEM -pubout -out client.publickey.pem 
+
+
+npm install crypto
+
+# selfsigned
+openssl req -new -key client.privatekey.pem -x509 -days 3650 -sha256 -out client.certificate.pem -subj "/C=US/O=My Organization/CN=mydomain.com"
+
+openssl x509 -in client.certificate.pem -text -noout
+

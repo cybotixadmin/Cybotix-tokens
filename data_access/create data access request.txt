@@ -1,0 +1,51 @@
+
+the data access request is dispatched along with a data acccess grant token
+
+
+curl -v -k 
+-H 
+
+X_HTTP_CYBOTIX_PLATFORM_TOKEN: eyJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9Cg.eyJpc3MiOiJodHRwczovL2N5Ym90aXgubm8iLCJzdWIiOiJodHRwczovL3d3dy52ZW5kb3IuY29tLyIsImF1ZCI6ImN5Ym90aXgtcGVyc29uYWwtZGF0YS1jb21tYW5kZXIiLCJleHAiOjE3MzU2ODk2MDAsIm5iZiI6MTU2Mzk4MDQwMCwiaWF0IjoxNTYzOTgwNDAwLCJqdGkiOiJmZmZmLWVlZWUtYWFhYS1iYmJiLWNjY2MiLCJ4NWMiOiJNSUlEWFRDQ0FrV2dBd0lCQWdJVUsxcU8zcjh3MWtQdzlsV2FGNHVuTVpjS2Fxb3dEUVlKS29aSWh2Y05BUUVMQlFBd1BqRUxNQWtHQTFVRUJoTUNWVk14R0RBV0JnTlZCQW9NRDAxNUlFOXlaMkZ1YVhwaGRHbHZiakVWTUJNR0ExVUVBd3dNYlhsa2IyMWhhVzR1WTI5dE1CNFhEVEl6TVRBeE1ESXlNVGcxTkZvWERUTXpNVEF3TnpJeU1UZzFORm93UGpFTE1Ba0dBMVVFQmhNQ1ZWTXhHREFXQmdOVkJBb01EMDE1SUU5eVoyRnVhWHBoZEdsdmJqRVZNQk1HQTFVRUF3d01iWGxrYjIxaGFXNHVZMjl0TUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFyWmdXQ0NoRk1waTZGVklIWnM2eUdNb0JmZDBDR3ZTNStiM2VMN2c3VjZiak0zV1hVVTdlS3g1WmU5Rm11U0RoQ09rZy9Nc3FJa1NFNW4rTFFaQlk4Vk1xM0NoWTRpeDdSRTh4YjFPY0ZZN3pmcEl0TWRmNWRHZUg2ZjU1NEZzYnMrVkcwclo2REJ2Lyt5amhWRUM3MmU4aDhERk1LOS9pVVFhQ0h6SmptTTU2bFBqeFl6WEtLOVcwMFcxd1V0ZGZMUlBWYTBmL1BhTktJMHhWMU1Mdi9DcFBOeURHQU1NeFNYenZEczR1MnNoNVFZUVc5aVJiWVp5bnZld3g2dzRNdUFtbjMvWmNOTmp3eGc0WkFTMTlNTTBUc0xaRVhIR3hNdk9kNlJJa0FuTDFIZXY1N3dVTHBZS2lMamlNczk4ZFNMS3hXaDUzWjR4emg4K1E4K1ltTVFJREFRQUJvMU13VVRBZEJnTlZIUTRFRmdRVWNlMlRDZHI0a3JwQ2RnUnl4dGV6QmF2SUtxSXdId1lEVlIwakJCZ3dGb0FVY2UyVENkcjRrcnBDZGdSeXh0ZXpCYXZJS3FJd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBTkJna3Foa2lHOXcwQkFRc0ZBQU9DQVFFQUwxMnNlVFNvUHVyN1liSGZQY1MvY1dpcTFiM3VZOW9pdHZVSVIyMkZkYUFBbnlWRWVtYmxxVnNTSG9SQ1NJaWF4MWVqaDEzQ3NjV0NtMTN5eXVOUG9FdmNWd0E3dUpZeWFkQitJblJaR3JrNjg4dGFrTmtCSng0MlpWWTJTb3krb2lFdStiZll4dFhZWm1ublErZ25sM1ZOR3RpdG90K2ZLNWJoaG1HbXd4SEVnMUJnV2dkOTVKdzd6WFVyaHpxcXp6SHhhTFJqOFFnMmVUdE9vakpqYWNFeGUrL0dVRkVTOWtSeWFjU2p3aTFCUXVaZXMrWk00QlAzQU1ueGs2WFp4Q0RTc216S3ZkQUNmMFpVU1poRmJWcFZUN3ZickluZjJma3JxN2xjOHRRZENKaDh2QXBJcnFYa1lUNkVudFlmSk9NR2tha0FwVysyWC9vZlB0b1BtUT09In0K.PI-05wqB8AuWfjGtckcXHca4jFCwrrkEZDHOLL15hbcx41KB9iSFwqBd0AQLtblqJRv3WbHsVm1ewBKXfuuc2c4nU6Ybx7BHJNNgffzPeTSCCuLuGQOo_e8e2mxgbQXXEqbH6pUQc2uVSi2untsA_b9Z_hf3dWtZw5GRqSLsZ3CQaKW9CCXTFXczE6KpojMg3iobuspTVi8v9Yo6XikBXVfD2qlD1pvSGAxzhI0PLaR7U4kI0RWvSM7NBuggTyaexVdT0v_ZgfJrPdX0jxJfjOpUW6AZDFdz88w6FlQvWd-iZU9uzut495rzedYe5jhHQhejA-oOKgn50jjYbPKUjw
+
+X_HTTP_CYBOTIX_DATA_REQUEST: 
+
+
+payload='{
+  "requestdetails":{"messagetext":"Can we see your click history for the past hour?","clickhistory":{"filter":".*top.*"}},
+}'
+
+echo $payload
+
+function pack() {
+  # Remove line breaks and spaces
+  echo $1 | sed -e "s/[\r\n]\+//g" | sed -e "s/ //g"
+}
+
+function base64url_encode {
+  (if [ -z "$1" ]; then cat -; else echo -n "$1"; fi) |
+    openssl base64 -e -A |
+      sed s/\\+/-/g |
+      sed s/\\//_/g |
+      sed -E s/=+$//
+}
+
+# just for debugging
+function base64url_decode {
+  INPUT=$(if [ -z "$1" ]; then echo -n $(cat -); else echo -n "$1"; fi)
+  MOD=$(($(echo -n "$INPUT" | wc -c) % 4))
+  PADDING=$(if [ $MOD -eq 2 ]; then echo -n '=='; elif [ $MOD -eq 3 ]; then echo -n '=' ; fi)
+  echo -n "$INPUT$PADDING" |
+    sed s/-/+/g |
+    sed s/_/\\//g |
+    openssl base64 -d -A
+}
+
+
+# Base64 Encoding
+b64_payload=$(pack "$payload" | base64url_encode)
+
+
+
+
+
+
